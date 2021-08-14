@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB59A43F26C780940092BF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A43E26C780940092BF7A /* AppDelegate.swift */; };
+		EB59A44126C780940092BF7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A44026C780940092BF7A /* SceneDelegate.swift */; };
+		EB59A44326C780940092BF7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A44226C780940092BF7A /* ViewController.swift */; };
+		EB59A44626C780940092BF7A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB59A44426C780940092BF7A /* Main.storyboard */; };
+		EB59A44826C780980092BF7A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB59A44726C780980092BF7A /* Assets.xcassets */; };
+		EB59A44B26C780980092BF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB59A44926C780980092BF7A /* LaunchScreen.storyboard */; };
+		EB59A45626C780980092BF7A /* metropiaPreTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A45526C780980092BF7A /* metropiaPreTestTests.swift */; };
+		EB59A46126C780980092BF7A /* metropiaPreTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A46026C780980092BF7A /* metropiaPreTestUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EB59A45226C780980092BF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB59A43326C780930092BF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB59A43A26C780930092BF7A;
+			remoteInfo = metropiaPreTest;
+		};
+		EB59A45D26C780980092BF7A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EB59A43326C780930092BF7A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EB59A43A26C780930092BF7A;
+			remoteInfo = metropiaPreTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EB59A43B26C780930092BF7A /* metropiaPreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metropiaPreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB59A43E26C780940092BF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB59A44026C780940092BF7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EB59A44226C780940092BF7A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB59A44526C780940092BF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB59A44726C780980092BF7A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB59A44A26C780980092BF7A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB59A44C26C780980092BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB59A45126C780980092BF7A /* metropiaPreTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metropiaPreTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB59A45526C780980092BF7A /* metropiaPreTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metropiaPreTestTests.swift; sourceTree = "<group>"; };
+		EB59A45726C780980092BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB59A45C26C780980092BF7A /* metropiaPreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metropiaPreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB59A46026C780980092BF7A /* metropiaPreTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metropiaPreTestUITests.swift; sourceTree = "<group>"; };
+		EB59A46226C780980092BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB59A43826C780930092BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB59A44E26C780980092BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB59A45926C780980092BF7A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB59A43226C780930092BF7A = {
+			isa = PBXGroup;
+			children = (
+				EB59A43D26C780930092BF7A /* metropiaPreTest */,
+				EB59A45426C780980092BF7A /* metropiaPreTestTests */,
+				EB59A45F26C780980092BF7A /* metropiaPreTestUITests */,
+				EB59A43C26C780930092BF7A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB59A43C26C780930092BF7A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A43B26C780930092BF7A /* metropiaPreTest.app */,
+				EB59A45126C780980092BF7A /* metropiaPreTestTests.xctest */,
+				EB59A45C26C780980092BF7A /* metropiaPreTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB59A43D26C780930092BF7A /* metropiaPreTest */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A43E26C780940092BF7A /* AppDelegate.swift */,
+				EB59A44026C780940092BF7A /* SceneDelegate.swift */,
+				EB59A44226C780940092BF7A /* ViewController.swift */,
+				EB59A44426C780940092BF7A /* Main.storyboard */,
+				EB59A44726C780980092BF7A /* Assets.xcassets */,
+				EB59A44926C780980092BF7A /* LaunchScreen.storyboard */,
+				EB59A44C26C780980092BF7A /* Info.plist */,
+			);
+			path = metropiaPreTest;
+			sourceTree = "<group>";
+		};
+		EB59A45426C780980092BF7A /* metropiaPreTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A45526C780980092BF7A /* metropiaPreTestTests.swift */,
+				EB59A45726C780980092BF7A /* Info.plist */,
+			);
+			path = metropiaPreTestTests;
+			sourceTree = "<group>";
+		};
+		EB59A45F26C780980092BF7A /* metropiaPreTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A46026C780980092BF7A /* metropiaPreTestUITests.swift */,
+				EB59A46226C780980092BF7A /* Info.plist */,
+			);
+			path = metropiaPreTestUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB59A43A26C780930092BF7A /* metropiaPreTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB59A46526C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTest" */;
+			buildPhases = (
+				EB59A43726C780930092BF7A /* Sources */,
+				EB59A43826C780930092BF7A /* Frameworks */,
+				EB59A43926C780930092BF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = metropiaPreTest;
+			productName = metropiaPreTest;
+			productReference = EB59A43B26C780930092BF7A /* metropiaPreTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EB59A45026C780980092BF7A /* metropiaPreTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB59A46826C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTestTests" */;
+			buildPhases = (
+				EB59A44D26C780980092BF7A /* Sources */,
+				EB59A44E26C780980092BF7A /* Frameworks */,
+				EB59A44F26C780980092BF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB59A45326C780980092BF7A /* PBXTargetDependency */,
+			);
+			name = metropiaPreTestTests;
+			productName = metropiaPreTestTests;
+			productReference = EB59A45126C780980092BF7A /* metropiaPreTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EB59A45B26C780980092BF7A /* metropiaPreTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB59A46B26C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTestUITests" */;
+			buildPhases = (
+				EB59A45826C780980092BF7A /* Sources */,
+				EB59A45926C780980092BF7A /* Frameworks */,
+				EB59A45A26C780980092BF7A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EB59A45E26C780980092BF7A /* PBXTargetDependency */,
+			);
+			name = metropiaPreTestUITests;
+			productName = metropiaPreTestUITests;
+			productReference = EB59A45C26C780980092BF7A /* metropiaPreTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB59A43326C780930092BF7A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					EB59A43A26C780930092BF7A = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					EB59A45026C780980092BF7A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EB59A43A26C780930092BF7A;
+					};
+					EB59A45B26C780980092BF7A = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = EB59A43A26C780930092BF7A;
+					};
+				};
+			};
+			buildConfigurationList = EB59A43626C780930092BF7A /* Build configuration list for PBXProject "metropiaPreTest" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB59A43226C780930092BF7A;
+			productRefGroup = EB59A43C26C780930092BF7A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB59A43A26C780930092BF7A /* metropiaPreTest */,
+				EB59A45026C780980092BF7A /* metropiaPreTestTests */,
+				EB59A45B26C780980092BF7A /* metropiaPreTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB59A43926C780930092BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB59A44B26C780980092BF7A /* LaunchScreen.storyboard in Resources */,
+				EB59A44826C780980092BF7A /* Assets.xcassets in Resources */,
+				EB59A44626C780940092BF7A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB59A44F26C780980092BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB59A45A26C780980092BF7A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB59A43726C780930092BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB59A44326C780940092BF7A /* ViewController.swift in Sources */,
+				EB59A43F26C780940092BF7A /* AppDelegate.swift in Sources */,
+				EB59A44126C780940092BF7A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB59A44D26C780980092BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB59A45626C780980092BF7A /* metropiaPreTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB59A45826C780980092BF7A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB59A46126C780980092BF7A /* metropiaPreTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EB59A45326C780980092BF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB59A43A26C780930092BF7A /* metropiaPreTest */;
+			targetProxy = EB59A45226C780980092BF7A /* PBXContainerItemProxy */;
+		};
+		EB59A45E26C780980092BF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EB59A43A26C780930092BF7A /* metropiaPreTest */;
+			targetProxy = EB59A45D26C780980092BF7A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EB59A44426C780940092BF7A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB59A44526C780940092BF7A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EB59A44926C780980092BF7A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB59A44A26C780980092BF7A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB59A46326C780990092BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB59A46426C780990092BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EB59A46626C780990092BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SZ34QCPHX;
+				INFOPLIST_FILE = metropiaPreTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.areckkimo.metropiaPreTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB59A46726C780990092BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SZ34QCPHX;
+				INFOPLIST_FILE = metropiaPreTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.areckkimo.metropiaPreTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EB59A46926C780990092BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SZ34QCPHX;
+				INFOPLIST_FILE = metropiaPreTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.areckkimo.metropiaPreTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metropiaPreTest.app/metropiaPreTest";
+			};
+			name = Debug;
+		};
+		EB59A46A26C780990092BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SZ34QCPHX;
+				INFOPLIST_FILE = metropiaPreTestTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.areckkimo.metropiaPreTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/metropiaPreTest.app/metropiaPreTest";
+			};
+			name = Release;
+		};
+		EB59A46C26C780990092BF7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SZ34QCPHX;
+				INFOPLIST_FILE = metropiaPreTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.areckkimo.metropiaPreTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = metropiaPreTest;
+			};
+			name = Debug;
+		};
+		EB59A46D26C780990092BF7A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5SZ34QCPHX;
+				INFOPLIST_FILE = metropiaPreTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tw.idv.areckkimo.metropiaPreTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = metropiaPreTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB59A43626C780930092BF7A /* Build configuration list for PBXProject "metropiaPreTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB59A46326C780990092BF7A /* Debug */,
+				EB59A46426C780990092BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB59A46526C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB59A46626C780990092BF7A /* Debug */,
+				EB59A46726C780990092BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB59A46826C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB59A46926C780990092BF7A /* Debug */,
+				EB59A46A26C780990092BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB59A46B26C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB59A46C26C780990092BF7A /* Debug */,
+				EB59A46D26C780990092BF7A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB59A43326C780930092BF7A /* Project object */;
+}
