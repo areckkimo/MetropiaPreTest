@@ -58,33 +58,197 @@
             </objects>
             <point key="canvasLocation" x="-554" y="60"/>
         </scene>
-        <!--Item 2-->
+        <!--你的足跡-->
         <scene sceneID="HVD-gh-Zhq">
             <objects>
-                <viewController id="jgU-pq-53M" sceneMemberID="viewController">
+                <viewController id="jgU-pq-53M" customClass="FootViewController" customModule="metropiaPreTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iaR-G7-xYa">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="grouped" separatorStyle="none" allowsSelection="NO" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="18" sectionFooterHeight="18" translatesAutoresizingMaskIntoConstraints="NO" id="niq-KR-hxM">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <prototypes>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="SpotCell" rowHeight="230" id="CmQ-lQ-8TW" customClass="SpotTableViewCell" customModule="metropiaPreTest" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="55.5" width="414" height="230"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="CmQ-lQ-8TW" id="vDB-HR-p9z">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="230"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <view contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="NQb-G9-zGV">
+                                                    <rect key="frame" x="24" y="18" width="366" height="194"/>
+                                                    <subviews>
+                                                        <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Z1w-i0-82y">
+                                                            <rect key="frame" x="0.0" y="0.0" width="366" height="194"/>
+                                                            <subviews>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="DateTime" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FGE-ta-JYM">
+                                                                    <rect key="frame" x="18" y="8" width="330" height="24"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                                    <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="0.78949555670000005" colorSpace="custom" customColorSpace="sRGB"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6jb-qN-uPs">
+                                                                    <rect key="frame" x="18" y="34" width="330" height="21"/>
+                                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                    <nil key="highlightedColor"/>
+                                                                </label>
+                                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uSL-XJ-pVg">
+                                                                    <rect key="frame" x="0.0" y="65" width="366" height="129"/>
+                                                                </imageView>
+                                                            </subviews>
+                                                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="trailing" secondItem="uSL-XJ-pVg" secondAttribute="trailing" id="3pW-eu-9rT"/>
+                                                                <constraint firstItem="6jb-qN-uPs" firstAttribute="top" secondItem="FGE-ta-JYM" secondAttribute="bottom" constant="2" id="5MG-wL-3hu"/>
+                                                                <constraint firstItem="FGE-ta-JYM" firstAttribute="top" secondItem="Z1w-i0-82y" secondAttribute="top" constant="8" id="Box-Ug-cdh"/>
+                                                                <constraint firstItem="FGE-ta-JYM" firstAttribute="leading" secondItem="Z1w-i0-82y" secondAttribute="leading" constant="18" id="Wgz-kw-3wD"/>
+                                                                <constraint firstAttribute="trailing" secondItem="6jb-qN-uPs" secondAttribute="trailing" constant="18" id="Z4Q-8G-g1K"/>
+                                                                <constraint firstAttribute="bottom" secondItem="uSL-XJ-pVg" secondAttribute="bottom" id="eEz-pa-ecu"/>
+                                                                <constraint firstItem="uSL-XJ-pVg" firstAttribute="top" secondItem="6jb-qN-uPs" secondAttribute="bottom" constant="10" id="kmU-Nl-Ay4"/>
+                                                                <constraint firstItem="6jb-qN-uPs" firstAttribute="leading" secondItem="Z1w-i0-82y" secondAttribute="leading" constant="18" id="lhj-5x-s1L"/>
+                                                                <constraint firstAttribute="trailing" secondItem="FGE-ta-JYM" secondAttribute="trailing" constant="18" id="noV-EA-hOg"/>
+                                                                <constraint firstItem="uSL-XJ-pVg" firstAttribute="leading" secondItem="Z1w-i0-82y" secondAttribute="leading" id="zCx-La-3XG"/>
+                                                            </constraints>
+                                                            <userDefinedRuntimeAttributes>
+                                                                <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                                    <integer key="value" value="12"/>
+                                                                </userDefinedRuntimeAttribute>
+                                                            </userDefinedRuntimeAttributes>
+                                                        </view>
+                                                    </subviews>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="trailing" secondItem="Z1w-i0-82y" secondAttribute="trailing" id="6Ha-wm-bhJ"/>
+                                                        <constraint firstItem="Z1w-i0-82y" firstAttribute="leading" secondItem="NQb-G9-zGV" secondAttribute="leading" id="7R6-bx-Lal"/>
+                                                        <constraint firstItem="Z1w-i0-82y" firstAttribute="top" secondItem="NQb-G9-zGV" secondAttribute="top" id="VWV-yI-S1F"/>
+                                                        <constraint firstAttribute="bottom" secondItem="Z1w-i0-82y" secondAttribute="bottom" id="WSU-dK-D3D"/>
+                                                    </constraints>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                                            <size key="value" width="0.0" height="3"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                                            <real key="value" value="0.29999999999999999"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                                            <integer key="value" value="7"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                            <integer key="value" value="12"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="bottom" secondItem="NQb-G9-zGV" secondAttribute="bottom" constant="18" id="RPS-XF-0Au"/>
+                                                <constraint firstItem="NQb-G9-zGV" firstAttribute="top" secondItem="vDB-HR-p9z" secondAttribute="top" constant="18" id="ZTs-Mu-pUs"/>
+                                                <constraint firstAttribute="trailing" secondItem="NQb-G9-zGV" secondAttribute="trailing" constant="24" id="hJF-iV-5Dh"/>
+                                                <constraint firstItem="NQb-G9-zGV" firstAttribute="leading" secondItem="vDB-HR-p9z" secondAttribute="leading" constant="24" id="tIA-mS-WCt"/>
+                                            </constraints>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <outlet property="addressLabel" destination="6jb-qN-uPs" id="xCT-Xd-ekf"/>
+                                            <outlet property="dateTimeLabel" destination="FGE-ta-JYM" id="UuE-xu-TjT"/>
+                                            <outlet property="mapImageView" destination="uSL-XJ-pVg" id="AKv-T4-eoe"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </prototypes>
+                                <connections>
+                                    <outlet property="dataSource" destination="jgU-pq-53M" id="40N-Ws-UWm"/>
+                                    <outlet property="delegate" destination="jgU-pq-53M" id="Az2-Z3-o6P"/>
+                                </connections>
+                            </tableView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="XZX-hA-BXm"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="niq-KR-hxM" firstAttribute="leading" secondItem="XZX-hA-BXm" secondAttribute="leading" id="KOx-lU-vbA"/>
+                            <constraint firstItem="niq-KR-hxM" firstAttribute="trailing" secondItem="XZX-hA-BXm" secondAttribute="trailing" id="hWi-ll-iiB"/>
+                            <constraint firstItem="niq-KR-hxM" firstAttribute="bottom" secondItem="XZX-hA-BXm" secondAttribute="bottom" id="pfS-2l-TyM"/>
+                            <constraint firstItem="niq-KR-hxM" firstAttribute="top" secondItem="XZX-hA-BXm" secondAttribute="top" id="veb-dr-ltF"/>
+                        </constraints>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 2" id="Ua5-gw-n2J"/>
+                    <navigationItem key="navigationItem" title="你的足跡" largeTitleDisplayMode="always" id="mP1-wF-chg"/>
+                    <connections>
+                        <outlet property="tableView" destination="niq-KR-hxM" id="O6n-EN-War"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="5qi-uC-73d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1187" y="363"/>
+            <point key="canvasLocation" x="2097.1014492753625" y="442.63392857142856"/>
         </scene>
-        <!--Item 1-->
+        <!--View Controller-->
+        <scene sceneID="4V1-by-xfc">
+            <objects>
+                <viewController id="qFb-TU-aU1" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="P7M-RD-NY7">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KQG-Jp-SbB">
+                                <rect key="frame" x="32" y="360" width="350" height="176"/>
+                                <subviews>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="egE-ER-dgC">
+                                        <rect key="frame" x="0.0" y="0.0" width="350" height="176"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="20"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstItem="egE-ER-dgC" firstAttribute="top" secondItem="KQG-Jp-SbB" secondAttribute="top" id="TSz-3n-R6n"/>
+                                    <constraint firstAttribute="trailing" secondItem="egE-ER-dgC" secondAttribute="trailing" id="a5w-cM-E74"/>
+                                    <constraint firstAttribute="height" constant="176" id="cH9-aj-ric"/>
+                                    <constraint firstAttribute="width" constant="350" id="kQZ-yD-T1Q"/>
+                                    <constraint firstItem="egE-ER-dgC" firstAttribute="leading" secondItem="KQG-Jp-SbB" secondAttribute="leading" id="nGF-lI-NwS"/>
+                                    <constraint firstAttribute="bottom" secondItem="egE-ER-dgC" secondAttribute="bottom" id="rLN-Bb-wvq"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="size" keyPath="layer.shadowOffset">
+                                        <size key="value" width="5" height="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowOpacity">
+                                        <real key="value" value="0.40000000000000002"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.shadowRadius">
+                                        <integer key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="20"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="yzJ-yd-UA0"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="KQG-Jp-SbB" firstAttribute="centerX" secondItem="P7M-RD-NY7" secondAttribute="centerX" id="Erv-Td-v39"/>
+                            <constraint firstItem="KQG-Jp-SbB" firstAttribute="centerY" secondItem="P7M-RD-NY7" secondAttribute="centerY" id="iu0-QG-DI6"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="eSR-G5-fVh" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3043" y="443"/>
+        </scene>
+        <!--Map-->
         <scene sceneID="hVR-0q-6wH">
             <objects>
-                <viewController id="Sjn-aV-rmI" sceneMemberID="viewController">
+                <viewController id="Sjn-aV-rmI" customClass="MapViewController" customModule="metropiaPreTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yUR-aX-CtV">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <viewLayoutGuide key="safeArea" id="XSZ-4v-0Jj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Item 1" id="u4F-ZQ-3eJ"/>
+                    <tabBarItem key="tabBarItem" title="Map" image="map" catalog="system" id="u4F-ZQ-3eJ"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sF1-dZ-NdR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -102,15 +266,36 @@
                     </tabBar>
                     <connections>
                         <segue destination="Sjn-aV-rmI" kind="relationship" relationship="viewControllers" id="y0X-w0-2VW"/>
-                        <segue destination="jgU-pq-53M" kind="relationship" relationship="viewControllers" id="goF-9f-zv5"/>
+                        <segue destination="npo-pH-S0M" kind="relationship" relationship="viewControllers" id="goF-9f-zv5"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jKY-50-iW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="297" y="60"/>
         </scene>
+        <!--Foot-->
+        <scene sceneID="4Bi-Dg-v74">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="npo-pH-S0M" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Foot" image="pin.fill" catalog="system" id="Ua5-gw-n2J"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="dhB-n2-lqz">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="jgU-pq-53M" kind="relationship" relationship="rootViewController" id="jlf-Jc-yD2"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="gtn-D9-Vkp" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1186.9565217391305" y="442.63392857142856"/>
+        </scene>
     </scenes>
     <resources>
+        <image name="map" catalog="system" width="128" height="110"/>
+        <image name="pin.fill" catalog="system" width="119" height="128"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>

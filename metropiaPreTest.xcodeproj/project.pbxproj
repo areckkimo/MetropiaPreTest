@@ -21,6 +21,16 @@
 		EB59A47226C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB59A47126C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist */; };
 		EB59A48626C7860A0092BF7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A48526C7860A0092BF7A /* LoginViewController.swift */; };
 		EB59A48F26C78D3B0092BF7A /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A48E26C78D3B0092BF7A /* Notification+Extension.swift */; };
+		EB59A49426C7AD900092BF7A /* FootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A49326C7AD8F0092BF7A /* FootViewController.swift */; };
+		EB59A49A26C7AFE40092BF7A /* SpotsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A49926C7AFE40092BF7A /* SpotsStorage.swift */; };
+		EB59A4A326C7B0330092BF7A /* Spot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4A226C7B0330092BF7A /* Spot.swift */; };
+		EB59A4A926C7BE4D0092BF7A /* SpotTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4A826C7BE4D0092BF7A /* SpotTableViewCell.swift */; };
+		EB59A4B126C7BF8A0092BF7A /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4B026C7BF8A0092BF7A /* MapViewController.swift */; };
+		EB59A4B626C7C0F10092BF7A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4B526C7C0F10092BF7A /* Date+Extension.swift */; };
+		EB59A4C226C7E5FB0092BF7A /* ConcurrentOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4BE26C7E5F90092BF7A /* ConcurrentOperation.swift */; };
+		EB59A4C326C7E5FB0092BF7A /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4BF26C7E5F90092BF7A /* DataResponseError.swift */; };
+		EB59A4C426C7E5FB0092BF7A /* PhotoDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4C026C7E5F90092BF7A /* PhotoDownloadManager.swift */; };
+		EB59A4C526C7E5FB0092BF7A /* PhotoDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4C126C7E5F90092BF7A /* PhotoDownloadOperation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +76,16 @@
 		EB59A47126C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
 		EB59A48526C7860A0092BF7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		EB59A48E26C78D3B0092BF7A /* Notification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extension.swift"; sourceTree = "<group>"; };
+		EB59A49326C7AD8F0092BF7A /* FootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootViewController.swift; sourceTree = "<group>"; };
+		EB59A49926C7AFE40092BF7A /* SpotsStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotsStorage.swift; sourceTree = "<group>"; };
+		EB59A4A226C7B0330092BF7A /* Spot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spot.swift; sourceTree = "<group>"; };
+		EB59A4A826C7BE4D0092BF7A /* SpotTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpotTableViewCell.swift; sourceTree = "<group>"; };
+		EB59A4B026C7BF8A0092BF7A /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		EB59A4B526C7C0F10092BF7A /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		EB59A4BE26C7E5F90092BF7A /* ConcurrentOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConcurrentOperation.swift; sourceTree = "<group>"; };
+		EB59A4BF26C7E5F90092BF7A /* DataResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResponseError.swift; sourceTree = "<group>"; };
+		EB59A4C026C7E5F90092BF7A /* PhotoDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDownloadManager.swift; sourceTree = "<group>"; };
+		EB59A4C126C7E5F90092BF7A /* PhotoDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDownloadOperation.swift; sourceTree = "<group>"; };
 		EBCFA685B36B308935DA997E /* Pods-metropiaPreTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTestTests.release.xcconfig"; path = "Target Support Files/Pods-metropiaPreTestTests/Pods-metropiaPreTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -145,8 +165,11 @@
 		EB59A43D26C780930092BF7A /* metropiaPreTest */ = {
 			isa = PBXGroup;
 			children = (
-				EB59A48D26C78D110092BF7A /* Extension */,
 				EB59A48426C785EA0092BF7A /* ViewController */,
+				EB59A4A726C7BE080092BF7A /* View */,
+				EB59A4A126C7B0230092BF7A /* Model */,
+				EB59A49826C7AFB80092BF7A /* Helper */,
+				EB59A48D26C78D110092BF7A /* Extension */,
 				EB59A43E26C780940092BF7A /* AppDelegate.swift */,
 				EB59A44026C780940092BF7A /* SceneDelegate.swift */,
 				EB59A44226C780940092BF7A /* ViewController.swift */,
@@ -181,6 +204,8 @@
 			isa = PBXGroup;
 			children = (
 				EB59A48526C7860A0092BF7A /* LoginViewController.swift */,
+				EB59A49326C7AD8F0092BF7A /* FootViewController.swift */,
+				EB59A4B026C7BF8A0092BF7A /* MapViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -189,8 +214,45 @@
 			isa = PBXGroup;
 			children = (
 				EB59A48E26C78D3B0092BF7A /* Notification+Extension.swift */,
+				EB59A4B526C7C0F10092BF7A /* Date+Extension.swift */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		EB59A49826C7AFB80092BF7A /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A4BD26C7E5F90092BF7A /* PhotoDownload */,
+				EB59A49926C7AFE40092BF7A /* SpotsStorage.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EB59A4A126C7B0230092BF7A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A4A226C7B0330092BF7A /* Spot.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EB59A4A726C7BE080092BF7A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A4A826C7BE4D0092BF7A /* SpotTableViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EB59A4BD26C7E5F90092BF7A /* PhotoDownload */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A4BE26C7E5F90092BF7A /* ConcurrentOperation.swift */,
+				EB59A4BF26C7E5F90092BF7A /* DataResponseError.swift */,
+				EB59A4C026C7E5F90092BF7A /* PhotoDownloadManager.swift */,
+				EB59A4C126C7E5F90092BF7A /* PhotoDownloadOperation.swift */,
+			);
+			path = PhotoDownload;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -432,9 +494,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB59A4C526C7E5FB0092BF7A /* PhotoDownloadOperation.swift in Sources */,
+				EB59A49426C7AD900092BF7A /* FootViewController.swift in Sources */,
+				EB59A4B626C7C0F10092BF7A /* Date+Extension.swift in Sources */,
 				EB59A48626C7860A0092BF7A /* LoginViewController.swift in Sources */,
 				EB59A44326C780940092BF7A /* ViewController.swift in Sources */,
+				EB59A4C426C7E5FB0092BF7A /* PhotoDownloadManager.swift in Sources */,
+				EB59A4C226C7E5FB0092BF7A /* ConcurrentOperation.swift in Sources */,
+				EB59A4B126C7BF8A0092BF7A /* MapViewController.swift in Sources */,
+				EB59A4A326C7B0330092BF7A /* Spot.swift in Sources */,
+				EB59A49A26C7AFE40092BF7A /* SpotsStorage.swift in Sources */,
 				EB59A43F26C780940092BF7A /* AppDelegate.swift in Sources */,
+				EB59A4C326C7E5FB0092BF7A /* DataResponseError.swift in Sources */,
+				EB59A4A926C7BE4D0092BF7A /* SpotTableViewCell.swift in Sources */,
 				EB59A48F26C78D3B0092BF7A /* Notification+Extension.swift in Sources */,
 				EB59A44126C780940092BF7A /* SceneDelegate.swift in Sources */,
 			);
