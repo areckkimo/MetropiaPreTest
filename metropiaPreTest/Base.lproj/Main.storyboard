@@ -1,24 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="LoginViewController" customModule="metropiaPreTest" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Hello" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TqY-Uy-g7I">
+                                <rect key="frame" x="143.5" y="415" width="127" height="66"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="55"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view hidden="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RDt-CM-JHD" customClass="GIDSignInButton">
+                                <rect key="frame" x="25" y="757" width="364" height="60"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="psb-Sa-D4t"/>
+                                </constraints>
+                                <connections>
+                                    <action selector="googleSignInPressedOnButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OXu-og-3ku"/>
+                                </connections>
+                            </view>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" hidesWhenStopped="YES" animating="YES" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Xnc-Qj-gTs">
+                                <rect key="frame" x="188.5" y="768.5" width="37" height="37"/>
+                            </activityIndicatorView>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="TqY-Uy-g7I" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9Gc-t0-rG0"/>
+                            <constraint firstItem="TqY-Uy-g7I" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="J6l-sA-9DW"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="RDt-CM-JHD" secondAttribute="bottom" constant="45" id="NMy-ip-oRq"/>
+                            <constraint firstItem="Xnc-Qj-gTs" firstAttribute="centerX" secondItem="RDt-CM-JHD" secondAttribute="centerX" id="OCp-gb-ABh"/>
+                            <constraint firstItem="RDt-CM-JHD" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="25" id="dQt-Vj-7QQ"/>
+                            <constraint firstItem="Xnc-Qj-gTs" firstAttribute="centerY" secondItem="RDt-CM-JHD" secondAttribute="centerY" id="mvf-a3-qDe"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="RDt-CM-JHD" secondAttribute="trailing" constant="25" id="qj6-gr-PMs"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="googleSignInButton" destination="RDt-CM-JHD" id="Iz6-ip-EqW"/>
+                        <outlet property="loginActivityIndicator" destination="Xnc-Qj-gTs" id="U2Q-hk-p4G"/>
+                        <segue destination="sim-9Y-gEa" kind="presentation" identifier="toTabBarController" modalPresentationStyle="fullScreen" id="D4E-tG-3eM"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-554" y="60"/>
+        </scene>
+        <!--Item 2-->
+        <scene sceneID="HVD-gh-Zhq">
+            <objects>
+                <viewController id="jgU-pq-53M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="iaR-G7-xYa">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XZX-hA-BXm"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 2" id="Ua5-gw-n2J"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5qi-uC-73d" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="363"/>
+        </scene>
+        <!--Item 1-->
+        <scene sceneID="hVR-0q-6wH">
+            <objects>
+                <viewController id="Sjn-aV-rmI" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yUR-aX-CtV">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="XSZ-4v-0Jj"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Item 1" id="u4F-ZQ-3eJ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sF1-dZ-NdR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1187" y="-243"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="vcy-R7-9vR">
+            <objects>
+                <tabBarController id="sim-9Y-gEa" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="geY-r3-jbG"/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="eCN-YW-2c9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="Sjn-aV-rmI" kind="relationship" relationship="viewControllers" id="y0X-w0-2VW"/>
+                        <segue destination="jgU-pq-53M" kind="relationship" relationship="viewControllers" id="goF-9f-zv5"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jKY-50-iW3" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="297" y="60"/>
         </scene>
     </scenes>
+    <resources>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>

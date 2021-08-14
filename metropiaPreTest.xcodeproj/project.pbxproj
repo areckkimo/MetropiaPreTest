@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18DCB9BBE1A60BA4FFC906A7 /* Pods_metropiaPreTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 022CAED977EAA26A0BB0A179 /* Pods_metropiaPreTest.framework */; };
+		94EF14CB1DE81EDB799CF15D /* Pods_metropiaPreTest_metropiaPreTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA4C528A84CF3C4F67A3078B /* Pods_metropiaPreTest_metropiaPreTestUITests.framework */; };
+		AB3EB9FB9349ABE23A1C2819 /* Pods_metropiaPreTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59D97CDBD9DB919CF2B642E8 /* Pods_metropiaPreTestTests.framework */; };
 		EB59A43F26C780940092BF7A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A43E26C780940092BF7A /* AppDelegate.swift */; };
 		EB59A44126C780940092BF7A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A44026C780940092BF7A /* SceneDelegate.swift */; };
 		EB59A44326C780940092BF7A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A44226C780940092BF7A /* ViewController.swift */; };
@@ -15,6 +18,9 @@
 		EB59A44B26C780980092BF7A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB59A44926C780980092BF7A /* LaunchScreen.storyboard */; };
 		EB59A45626C780980092BF7A /* metropiaPreTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A45526C780980092BF7A /* metropiaPreTestTests.swift */; };
 		EB59A46126C780980092BF7A /* metropiaPreTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A46026C780980092BF7A /* metropiaPreTestUITests.swift */; };
+		EB59A47226C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist in Resources */ = {isa = PBXBuildFile; fileRef = EB59A47126C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist */; };
+		EB59A48626C7860A0092BF7A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A48526C7860A0092BF7A /* LoginViewController.swift */; };
+		EB59A48F26C78D3B0092BF7A /* Notification+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A48E26C78D3B0092BF7A /* Notification+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		022CAED977EAA26A0BB0A179 /* Pods_metropiaPreTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metropiaPreTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59D97CDBD9DB919CF2B642E8 /* Pods_metropiaPreTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metropiaPreTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		800168EA35C71B7232C1BB94 /* Pods-metropiaPreTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTest.release.xcconfig"; path = "Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest.release.xcconfig"; sourceTree = "<group>"; };
+		96B399BBA0E2C50113E47076 /* Pods-metropiaPreTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTest.debug.xcconfig"; path = "Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest.debug.xcconfig"; sourceTree = "<group>"; };
+		BA4C528A84CF3C4F67A3078B /* Pods_metropiaPreTest_metropiaPreTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_metropiaPreTest_metropiaPreTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3709E89834D238DF3E3BF11 /* Pods-metropiaPreTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTestTests.debug.xcconfig"; path = "Target Support Files/Pods-metropiaPreTestTests/Pods-metropiaPreTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C8358C67564EEE424B5B625F /* Pods-metropiaPreTest-metropiaPreTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTest-metropiaPreTestUITests.release.xcconfig"; path = "Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D0426F9E66B359DF7DA08520 /* Pods-metropiaPreTest-metropiaPreTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTest-metropiaPreTestUITests.debug.xcconfig"; path = "Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EB59A43B26C780930092BF7A /* metropiaPreTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = metropiaPreTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB59A43E26C780940092BF7A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB59A44026C780940092BF7A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +63,10 @@
 		EB59A45C26C780980092BF7A /* metropiaPreTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = metropiaPreTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB59A46026C780980092BF7A /* metropiaPreTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = metropiaPreTestUITests.swift; sourceTree = "<group>"; };
 		EB59A46226C780980092BF7A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB59A47126C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist"; sourceTree = "<group>"; };
+		EB59A48526C7860A0092BF7A /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		EB59A48E26C78D3B0092BF7A /* Notification+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Notification+Extension.swift"; sourceTree = "<group>"; };
+		EBCFA685B36B308935DA997E /* Pods-metropiaPreTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTestTests.release.xcconfig"; path = "Target Support Files/Pods-metropiaPreTestTests/Pods-metropiaPreTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18DCB9BBE1A60BA4FFC906A7 /* Pods_metropiaPreTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB3EB9FB9349ABE23A1C2819 /* Pods_metropiaPreTestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +90,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94EF14CB1DE81EDB799CF15D /* Pods_metropiaPreTest_metropiaPreTestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60D6F1987D03C63DFFA1A670 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				022CAED977EAA26A0BB0A179 /* Pods_metropiaPreTest.framework */,
+				BA4C528A84CF3C4F67A3078B /* Pods_metropiaPreTest_metropiaPreTestUITests.framework */,
+				59D97CDBD9DB919CF2B642E8 /* Pods_metropiaPreTestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9F7B4B49BCBFFECECBF4A6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96B399BBA0E2C50113E47076 /* Pods-metropiaPreTest.debug.xcconfig */,
+				800168EA35C71B7232C1BB94 /* Pods-metropiaPreTest.release.xcconfig */,
+				D0426F9E66B359DF7DA08520 /* Pods-metropiaPreTest-metropiaPreTestUITests.debug.xcconfig */,
+				C8358C67564EEE424B5B625F /* Pods-metropiaPreTest-metropiaPreTestUITests.release.xcconfig */,
+				C3709E89834D238DF3E3BF11 /* Pods-metropiaPreTestTests.debug.xcconfig */,
+				EBCFA685B36B308935DA997E /* Pods-metropiaPreTestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		EB59A43226C780930092BF7A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +127,8 @@
 				EB59A45426C780980092BF7A /* metropiaPreTestTests */,
 				EB59A45F26C780980092BF7A /* metropiaPreTestUITests */,
 				EB59A43C26C780930092BF7A /* Products */,
+				D9F7B4B49BCBFFECECBF4A6D /* Pods */,
+				60D6F1987D03C63DFFA1A670 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +145,8 @@
 		EB59A43D26C780930092BF7A /* metropiaPreTest */ = {
 			isa = PBXGroup;
 			children = (
+				EB59A48D26C78D110092BF7A /* Extension */,
+				EB59A48426C785EA0092BF7A /* ViewController */,
 				EB59A43E26C780940092BF7A /* AppDelegate.swift */,
 				EB59A44026C780940092BF7A /* SceneDelegate.swift */,
 				EB59A44226C780940092BF7A /* ViewController.swift */,
@@ -106,6 +154,7 @@
 				EB59A44726C780980092BF7A /* Assets.xcassets */,
 				EB59A44926C780980092BF7A /* LaunchScreen.storyboard */,
 				EB59A44C26C780980092BF7A /* Info.plist */,
+				EB59A47126C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist */,
 			);
 			path = metropiaPreTest;
 			sourceTree = "<group>";
@@ -128,6 +177,22 @@
 			path = metropiaPreTestUITests;
 			sourceTree = "<group>";
 		};
+		EB59A48426C785EA0092BF7A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A48526C7860A0092BF7A /* LoginViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		EB59A48D26C78D110092BF7A /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A48E26C78D3B0092BF7A /* Notification+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +200,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB59A46526C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTest" */;
 			buildPhases = (
+				AA4E52DDACE3A27BCAD6DCEA /* [CP] Check Pods Manifest.lock */,
 				EB59A43726C780930092BF7A /* Sources */,
 				EB59A43826C780930092BF7A /* Frameworks */,
 				EB59A43926C780930092BF7A /* Resources */,
+				1860A1E405D204A497A4A008 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +219,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB59A46826C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTestTests" */;
 			buildPhases = (
+				4416CF144EA62063B5F395C1 /* [CP] Check Pods Manifest.lock */,
 				EB59A44D26C780980092BF7A /* Sources */,
 				EB59A44E26C780980092BF7A /* Frameworks */,
 				EB59A44F26C780980092BF7A /* Resources */,
@@ -170,9 +238,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB59A46B26C780990092BF7A /* Build configuration list for PBXNativeTarget "metropiaPreTestUITests" */;
 			buildPhases = (
+				AB0D08C8F9AD6071788B09D5 /* [CP] Check Pods Manifest.lock */,
 				EB59A45826C780980092BF7A /* Sources */,
 				EB59A45926C780980092BF7A /* Frameworks */,
 				EB59A45A26C780980092BF7A /* Resources */,
+				A6BC0F2BEB51779CC3ABF136 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +302,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB59A44B26C780980092BF7A /* LaunchScreen.storyboard in Resources */,
+				EB59A47226C783190092BF7A /* client_61552093515-a10uced8mn75kjj30ad38gi8g7ch6lmn.apps.googleusercontent.com.plist in Resources */,
 				EB59A44826C780980092BF7A /* Assets.xcassets in Resources */,
 				EB59A44626C780940092BF7A /* Main.storyboard in Resources */,
 			);
@@ -253,13 +324,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1860A1E405D204A497A4A008 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4416CF144EA62063B5F395C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metropiaPreTestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6BC0F2BEB51779CC3ABF136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA4E52DDACE3A27BCAD6DCEA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metropiaPreTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0D08C8F9AD6071788B09D5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-metropiaPreTest-metropiaPreTestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB59A43726C780930092BF7A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB59A48626C7860A0092BF7A /* LoginViewController.swift in Sources */,
 				EB59A44326C780940092BF7A /* ViewController.swift in Sources */,
 				EB59A43F26C780940092BF7A /* AppDelegate.swift in Sources */,
+				EB59A48F26C78D3B0092BF7A /* Notification+Extension.swift in Sources */,
 				EB59A44126C780940092BF7A /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +609,7 @@
 		};
 		EB59A46626C780990092BF7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96B399BBA0E2C50113E47076 /* Pods-metropiaPreTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +629,7 @@
 		};
 		EB59A46726C780990092BF7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 800168EA35C71B7232C1BB94 /* Pods-metropiaPreTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +649,7 @@
 		};
 		EB59A46926C780990092BF7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3709E89834D238DF3E3BF11 /* Pods-metropiaPreTestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +672,7 @@
 		};
 		EB59A46A26C780990092BF7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBCFA685B36B308935DA997E /* Pods-metropiaPreTestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +695,7 @@
 		};
 		EB59A46C26C780990092BF7A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D0426F9E66B359DF7DA08520 /* Pods-metropiaPreTest-metropiaPreTestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +716,7 @@
 		};
 		EB59A46D26C780990092BF7A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C8358C67564EEE424B5B625F /* Pods-metropiaPreTest-metropiaPreTestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
