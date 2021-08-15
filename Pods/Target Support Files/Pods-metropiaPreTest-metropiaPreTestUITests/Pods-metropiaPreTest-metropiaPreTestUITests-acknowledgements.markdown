@@ -619,6 +619,10 @@ This application makes use of the following third party libraries:
    limitations under the License.
 
 
+## GoogleMaps
+
+Copyright 2021 Google
+
 ## GoogleSignIn
 
 

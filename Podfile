@@ -7,6 +7,7 @@ target 'metropiaPreTest' do
 
   # Pods for metropiaPreTest
   pod 'GoogleSignIn'
+  pod 'GoogleMaps'
 
   target 'metropiaPreTestTests' do
     inherit! :search_paths

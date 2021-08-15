@@ -4,6 +4,11 @@ PODS:
     - AppAuth/ExternalUserAgent (= 1.4.0)
   - AppAuth/Core (1.4.0)
   - AppAuth/ExternalUserAgent (1.4.0)
+  - GoogleMaps (5.1.0):
+    - GoogleMaps/Maps (= 5.1.0)
+  - GoogleMaps/Base (5.1.0)
+  - GoogleMaps/Maps (5.1.0):
+    - GoogleMaps/Base
   - GoogleSignIn (6.0.1):
     - AppAuth (~> 1.4)
     - GTMAppAuth (~> 1.0)
@@ -14,21 +19,24 @@ PODS:
   - GTMSessionFetcher/Core (1.6.1)
 
 DEPENDENCIES:
+  - GoogleMaps
   - GoogleSignIn
 
 SPEC REPOS:
   trunk:
     - AppAuth
+    - GoogleMaps
     - GoogleSignIn
     - GTMAppAuth
     - GTMSessionFetcher
 
 SPEC CHECKSUMS:
   AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  GoogleMaps: 086ae1dab659eaa7339bdb30fc88e2f44e7c597c
   GoogleSignIn: 1b0c4ec33a6fe282f4fa35d8ac64263230ddaf36
   GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
   GTMSessionFetcher: 36689134877faeb055b27dfa4ccc9ceaa42e029e
 
-PODFILE CHECKSUM: ea4630b19ba832ad8a0c4ac8b78d3923f4a20c57
+PODFILE CHECKSUM: a0db1daa316ad6bedee7b2d082bc21f8abac24bd
 
 COCOAPODS: 1.10.0

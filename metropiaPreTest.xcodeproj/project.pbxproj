@@ -31,6 +31,16 @@
 		EB59A4C326C7E5FB0092BF7A /* DataResponseError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4BF26C7E5F90092BF7A /* DataResponseError.swift */; };
 		EB59A4C426C7E5FB0092BF7A /* PhotoDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4C026C7E5F90092BF7A /* PhotoDownloadManager.swift */; };
 		EB59A4C526C7E5FB0092BF7A /* PhotoDownloadOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4C126C7E5F90092BF7A /* PhotoDownloadOperation.swift */; };
+		EB59A4D926C8B5010092BF7A /* Area.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4D826C8B5000092BF7A /* Area.swift */; };
+		EB59A4E126C8B56C0092BF7A /* HTTPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4DE26C8B5690092BF7A /* HTTPError.swift */; };
+		EB59A4E226C8B56C0092BF7A /* HTTPURLResponse+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4DF26C8B56B0092BF7A /* HTTPURLResponse+Extension.swift */; };
+		EB59A4E326C8B56C0092BF7A /* URLRequest+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4E026C8B56C0092BF7A /* URLRequest+Extension.swift */; };
+		EB59A4E826C8B5A20092BF7A /* AreaRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4E726C8B5A20092BF7A /* AreaRequest.swift */; };
+		EB59A4ED26C8B5CE0092BF7A /* SheethubClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4EC26C8B5CE0092BF7A /* SheethubClient.swift */; };
+		EB59A4F326C8B6560092BF7A /* AreaViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4F226C8B6560092BF7A /* AreaViewModel.swift */; };
+		EB59A4FB26C8BDDE0092BF7A /* CLLocation+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A4FA26C8BDDD0092BF7A /* CLLocation+Extension.swift */; };
+		EB59A50126C8E9940092BF7A /* InfoWindowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A50026C8E9910092BF7A /* InfoWindowView.swift */; };
+		EB59A50626C92C100092BF7A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB59A50526C92C0C0092BF7A /* UIImage+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -86,6 +96,16 @@
 		EB59A4BF26C7E5F90092BF7A /* DataResponseError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResponseError.swift; sourceTree = "<group>"; };
 		EB59A4C026C7E5F90092BF7A /* PhotoDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDownloadManager.swift; sourceTree = "<group>"; };
 		EB59A4C126C7E5F90092BF7A /* PhotoDownloadOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoDownloadOperation.swift; sourceTree = "<group>"; };
+		EB59A4D826C8B5000092BF7A /* Area.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Area.swift; sourceTree = "<group>"; };
+		EB59A4DE26C8B5690092BF7A /* HTTPError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPError.swift; sourceTree = "<group>"; };
+		EB59A4DF26C8B56B0092BF7A /* HTTPURLResponse+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "HTTPURLResponse+Extension.swift"; sourceTree = "<group>"; };
+		EB59A4E026C8B56C0092BF7A /* URLRequest+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URLRequest+Extension.swift"; sourceTree = "<group>"; };
+		EB59A4E726C8B5A20092BF7A /* AreaRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaRequest.swift; sourceTree = "<group>"; };
+		EB59A4EC26C8B5CE0092BF7A /* SheethubClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheethubClient.swift; sourceTree = "<group>"; };
+		EB59A4F226C8B6560092BF7A /* AreaViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaViewModel.swift; sourceTree = "<group>"; };
+		EB59A4FA26C8BDDD0092BF7A /* CLLocation+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CLLocation+Extension.swift"; sourceTree = "<group>"; };
+		EB59A50026C8E9910092BF7A /* InfoWindowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoWindowView.swift; sourceTree = "<group>"; };
+		EB59A50526C92C0C0092BF7A /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		EBCFA685B36B308935DA997E /* Pods-metropiaPreTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-metropiaPreTestTests.release.xcconfig"; path = "Target Support Files/Pods-metropiaPreTestTests/Pods-metropiaPreTestTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				EB59A48426C785EA0092BF7A /* ViewController */,
+				EB59A4F126C8B6280092BF7A /* ViewModel */,
 				EB59A4A726C7BE080092BF7A /* View */,
 				EB59A4A126C7B0230092BF7A /* Model */,
 				EB59A49826C7AFB80092BF7A /* Helper */,
@@ -215,6 +236,8 @@
 			children = (
 				EB59A48E26C78D3B0092BF7A /* Notification+Extension.swift */,
 				EB59A4B526C7C0F10092BF7A /* Date+Extension.swift */,
+				EB59A4FA26C8BDDD0092BF7A /* CLLocation+Extension.swift */,
+				EB59A50526C92C0C0092BF7A /* UIImage+Extension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -222,6 +245,7 @@
 		EB59A49826C7AFB80092BF7A /* Helper */ = {
 			isa = PBXGroup;
 			children = (
+				EB59A4DD26C8B53B0092BF7A /* Networking */,
 				EB59A4BD26C7E5F90092BF7A /* PhotoDownload */,
 				EB59A49926C7AFE40092BF7A /* SpotsStorage.swift */,
 			);
@@ -232,6 +256,7 @@
 			isa = PBXGroup;
 			children = (
 				EB59A4A226C7B0330092BF7A /* Spot.swift */,
+				EB59A4D826C8B5000092BF7A /* Area.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -240,6 +265,7 @@
 			isa = PBXGroup;
 			children = (
 				EB59A4A826C7BE4D0092BF7A /* SpotTableViewCell.swift */,
+				EB59A50026C8E9910092BF7A /* InfoWindowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -255,6 +281,26 @@
 			path = PhotoDownload;
 			sourceTree = "<group>";
 		};
+		EB59A4DD26C8B53B0092BF7A /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A4DE26C8B5690092BF7A /* HTTPError.swift */,
+				EB59A4DF26C8B56B0092BF7A /* HTTPURLResponse+Extension.swift */,
+				EB59A4E026C8B56C0092BF7A /* URLRequest+Extension.swift */,
+				EB59A4E726C8B5A20092BF7A /* AreaRequest.swift */,
+				EB59A4EC26C8B5CE0092BF7A /* SheethubClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EB59A4F126C8B6280092BF7A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EB59A4F226C8B6560092BF7A /* AreaViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -267,6 +313,7 @@
 				EB59A43826C780930092BF7A /* Frameworks */,
 				EB59A43926C780930092BF7A /* Resources */,
 				1860A1E405D204A497A4A008 /* [CP] Embed Pods Frameworks */,
+				1C53817090A3AF04926B28BC /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -305,6 +352,7 @@
 				EB59A45926C780980092BF7A /* Frameworks */,
 				EB59A45A26C780980092BF7A /* Resources */,
 				A6BC0F2BEB51779CC3ABF136 /* [CP] Embed Pods Frameworks */,
+				91469ED6F37293BBF04CE0B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -404,6 +452,23 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		1C53817090A3AF04926B28BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest/Pods-metropiaPreTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		4416CF144EA62063B5F395C1 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -424,6 +489,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		91469ED6F37293BBF04CE0B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-metropiaPreTest-metropiaPreTestUITests/Pods-metropiaPreTest-metropiaPreTestUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A6BC0F2BEB51779CC3ABF136 /* [CP] Embed Pods Frameworks */ = {
@@ -504,11 +586,21 @@
 				EB59A4B126C7BF8A0092BF7A /* MapViewController.swift in Sources */,
 				EB59A4A326C7B0330092BF7A /* Spot.swift in Sources */,
 				EB59A49A26C7AFE40092BF7A /* SpotsStorage.swift in Sources */,
+				EB59A4E226C8B56C0092BF7A /* HTTPURLResponse+Extension.swift in Sources */,
 				EB59A43F26C780940092BF7A /* AppDelegate.swift in Sources */,
+				EB59A4E326C8B56C0092BF7A /* URLRequest+Extension.swift in Sources */,
 				EB59A4C326C7E5FB0092BF7A /* DataResponseError.swift in Sources */,
+				EB59A4E826C8B5A20092BF7A /* AreaRequest.swift in Sources */,
 				EB59A4A926C7BE4D0092BF7A /* SpotTableViewCell.swift in Sources */,
 				EB59A48F26C78D3B0092BF7A /* Notification+Extension.swift in Sources */,
+				EB59A50626C92C100092BF7A /* UIImage+Extension.swift in Sources */,
+				EB59A4FB26C8BDDE0092BF7A /* CLLocation+Extension.swift in Sources */,
+				EB59A4F326C8B6560092BF7A /* AreaViewModel.swift in Sources */,
+				EB59A4ED26C8B5CE0092BF7A /* SheethubClient.swift in Sources */,
+				EB59A4D926C8B5010092BF7A /* Area.swift in Sources */,
 				EB59A44126C780940092BF7A /* SceneDelegate.swift in Sources */,
+				EB59A50126C8E9940092BF7A /* InfoWindowView.swift in Sources */,
+				EB59A4E126C8B56C0092BF7A /* HTTPError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

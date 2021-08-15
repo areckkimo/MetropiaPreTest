@@ -7,12 +7,13 @@
 
 import UIKit
 import GoogleSignIn
+import GoogleMaps
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        // Google Sign In
         GIDSignIn.sharedInstance.restorePreviousSignIn { (user, error) in
             if error == nil, let _ = user {
                 NotificationCenter.default.post(name: .signInGoogleCompleted, object: nil)
@@ -20,6 +21,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
                 NotificationCenter.default.post(name: .signInGoogleFail, object: nil)
             }
         }
+        //Google Map
+        GMSServices.provideAPIKey("AIzaSyBz1TSprs1K20BF4dWXc2UGHxHu2gpJapE")
         return true
     }
     
